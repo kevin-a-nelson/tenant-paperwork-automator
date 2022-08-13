@@ -1,0 +1,37 @@
+
+#form-container {
+    height: 500px;
+    overflow: scroll;
+    border: 1px solid #ddd;
+}
+
+.title {
+    padding-top: 200px;
+}
+
+.page {
+    margin: 0;
+    padding: 0;
+    height: 841.8px;
+    width: 550px;
+    border-bottom: 1px solid #ddd;
+}
+
+.page-one {
+    text-align: center;
+}
+
+#form {
+    margin: 0px auto;
+}
+
+
+.form-container {
+-ms-overflow-style: none; /* Edge, Internet Explorer */
+scrollbar-width: none; /* Firefox */
+overflow-y: scroll;
+}
+
+.form-container::-webkit-scrollbar {
+display: none; /* Chrome, Safari, Opera */
+}

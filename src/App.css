@@ -1,0 +1,31 @@
+
+@import '~antd/dist/antd.css';
+
+.App {
+  display: flex;
+}
+
+.App-container {
+  display: flex;
+  margin-top: 40px;
+  margin: 30px auto;
+}
+
+.leftSide {
+  margin-right: 20px;
+}
+
+.rightSide {
+  height: 800px;
+  overflow: hidden;
+}
+
+.rightSide {
+-ms-overflow-style: none; /* Edge, Internet Explorer */
+scrollbar-width: none; /* Firefox */
+overflow-y: scroll;
+}
+
+.rightSide::-webkit-scrollbar {
+display: none; /* Chrome, Safari, Opera */
+}
